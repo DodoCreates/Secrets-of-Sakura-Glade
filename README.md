@@ -2,7 +2,7 @@
 
 Welcome to **Secrets of Sakura Glade**, a visual novel created as a university project for the Visual Novel course. This game is optimized to run on Chrome for desktop, and it is built using Fudge Story. Dive into a magical world inhabited by the Capfolk, mushroom humanoids, where you take on the role of an investigator to solve a mystery and save the Spring Festival!
 
-<!-- ![Secrets of Sakura Glade Banner](link_to_banner_image) Replace with the actual image link -->
+![Secrets of Sakura Glade Banner](Concept/Banner.png) 
 
 ## Table of Contents
 
@@ -11,6 +11,7 @@ Welcome to **Secrets of Sakura Glade**, a visual novel created as a university p
 4. [How to Play](#how-to-play)
 6. [Development](#development)
 7. [Credits](#credits)
+4. [Screenshots](#screenshots)
 
 ## Synopsis
 
@@ -49,6 +50,10 @@ Through a wondrous fortune, you wake up in the **Forest of Fairie**, a magical f
 
 - Special thanks to my university for the support and guidance throughout this project.
 - And thanks to all playtesters and friends who provided feedback!
+
+## Screenshots
+![Secrets of Sakura Glade Banner](Concept/Screenshot1.png) ![Secrets of Sakura Glade Banner](Concept/Screenshot2.png) ![Secrets of Sakura Glade Banner](Concept/Screenshot3.png) ![Secrets of Sakura Glade Banner](Concept/Screenshot4.png) ![Secrets of Sakura Glade Banner](Concept/Screenshot5.png) 
+
 
 ---
 
