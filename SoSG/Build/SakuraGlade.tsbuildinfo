@@ -1,0 +1,78 @@
+{
+  "bundle": {
+    "commonSourceDirectory": "..",
+    "sourceFiles": [
+      "../Source/Main.ts",
+      "../Source/Definitions/Options.ts",
+      "../Source/Definitions/Start.ts",
+      "../Source/Definitions/Texts.ts",
+      "../Source/Definitions/myInventory.ts",
+      "../Source/Scenes/0FairieForest.ts",
+      "../Source/Scenes/0Intro.ts",
+      "../Source/Scenes/0WelcomeSakuraGlade.ts",
+      "../Source/Scenes/Day1Amaya.ts",
+      "../Source/Scenes/Day1Fumiko.ts",
+      "../Source/Scenes/Day1Kohana.ts",
+      "../Source/Scenes/Day1Morning.ts",
+      "../Source/Scenes/Day1Nobu.ts",
+      "../Source/Scenes/Day2Amaya.ts",
+      "../Source/Scenes/Day2Evening.ts",
+      "../Source/Scenes/Day2Fumiko.ts",
+      "../Source/Scenes/Day2FumikoBreakdown.ts",
+      "../Source/Scenes/Day2Kohana.ts",
+      "../Source/Scenes/Day2Morning.ts",
+      "../Source/Scenes/Day2Nobu.ts",
+      "../Source/Scenes/Day2SacredTree.ts",
+      "../Source/Scenes/Day3Morning.ts",
+      "../Source/Scenes/Day3Showdown.ts",
+      "../Source/Scenes/EndBad.ts",
+      "../Source/Scenes/EndBittersweet.ts",
+      "../Source/Scenes/EndGood.ts",
+      "../Source/Scenes/EndScene.ts"
+    ],
+    "js": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 13,
+          "kind": "prologue",
+          "data": "use strict"
+        },
+        {
+          "pos": 15,
+          "end": 330806,
+          "kind": "text"
+        }
+      ],
+      "sources": {
+        "prologues": [
+          {
+            "file": 0,
+            "text": "",
+            "directives": [
+              {
+                "pos": -1,
+                "end": -1,
+                "expression": {
+                  "pos": -1,
+                  "end": -1,
+                  "text": "use strict"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "dts": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 8373,
+          "kind": "text"
+        }
+      ]
+    }
+  },
+  "version": "4.2.4"
+}

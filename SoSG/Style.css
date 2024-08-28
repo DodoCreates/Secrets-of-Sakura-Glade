@@ -1,0 +1,479 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #050f1b90;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #94bce9d6;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ysabeau Infant", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: black;
+  overflow: hidden;
+}
+
+scene {
+  width: 1280px;
+  height: 720px;
+  display: inline-block;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+dialog[type=splash] {
+  background-image: url(Images/Splash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+dialog[type=splash] img#FudgeStoryLogo {
+  height: 2em;
+  vertical-align: middle;
+}
+
+dialog {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.start {
+  position: absolute;
+  background-color: #401d6b56;
+  box-shadow: 0px 0px 150px 150px #401d6b56;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h1 {
+  margin: 0 0 0.75em 0;
+  font-family: "Water Brush", serif;
+  font-size: 10vw;
+  font-weight: 400;
+  line-height: 1em;
+  text-shadow: 7px 5px 17px #18042e;
+}
+
+.start p {
+  font-size: 2vw;
+  text-shadow: 4px 3px 10px #18042e;
+  margin: 0 0 2em 0;
+  opacity: 1;
+  animation-name: pulse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.claim {
+  position: absolute;
+  bottom: 1em;
+  text-shadow: 4px 3px 10px #18042e;
+  right: 1em
+}
+
+@keyframes pulse {
+  10% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  90% {
+    opacity: 1;
+  }
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+scene {
+  position: absolute;
+  width: 1600px;
+  height: 900px;
+}
+
+speech {
+  position: absolute;
+  bottom: 2%;
+  left: 0px;
+  color: white;
+  width: 80%;
+  height: 8em;
+  margin-left: 50%;
+  transform: translate(-50%);
+  background: #1e161acf;
+  border: 2px solid #eeaeca;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(111deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  color: white;
+  box-shadow: 0 0 10px 1px #eeaeca60;
+}
+
+speech name {
+  position: absolute;
+  top: -63px;
+  left: -2px;
+  font-weight: 400;
+  font-size: 28px;
+  padding: 10px 30px;
+  font-family: "Water Brush";
+  min-width: 33.775px;
+  min-height: 40.8px;
+  background: #1e161acf;
+  border: 2px solid #eeaeca;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(111deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  color: white;
+  box-shadow: 0 0 10px 1px #eeaeca60;
+  border-bottom: none;
+}
+
+speech.You i {
+  color: #b0d0f4;
+}
+
+.choices,
+.gameMenu,
+.inventory {
+  background: #1e161acf;
+  border: 2px solid #eeaeca;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(111deg, rgba(238, 174, 202, 1) 0%, #94bbe9 100%);
+  color: white;
+  box-shadow: 0 0 10px 1px #eeaeca60;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 3em 4em;
+}
+
+dialog:not([open]) {
+  display: none;
+}
+
+.choices button,
+.gameMenu button {
+  font-family: 'Ysabeau Infant';
+  border: 1px solid white;
+  border-radius: 0;
+  background: linear-gradient(111deg, rgba(238, 174, 202, 0) 0%, rgba(238, 174, 202, 0) 40%, rgba(238, 174, 202, 1) 50%, rgba(148, 187, 233, 1) 100%);
+  background-size: 250%;
+  background-position: 0 0;
+  color: white;
+  padding: 8px 36px 10px;
+  font-size: 18px;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+.gameMenu {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+content {
+  margin: 25px 30px;
+  display: block;
+  font-size: 18px;
+}
+
+#start {
+  padding: 3em;
+  min-width: 25%;
+  max-width: 100%;
+  background: #eeaeca20;
+  border: 2px solid #eeaeca;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(111deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  color: white;
+  box-shadow: 0 0 20px 2px #eeaeca60;
+}
+
+#start>form {
+  display: flex;
+  flex-direction: column;
+}
+
+#start>form>label {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+#start>form>label:not(:first-child) {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+#start>form>label input,
+#start>form>label select {
+  padding: 8px 12px 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  margin-top: 0.4em;
+}
+
+#start>form>label select {
+  cursor: pointer;
+}
+
+#start>form>label input::placeholder {
+  color: #ffffff80;
+}
+
+#pronouns option {
+  background-color: #1e161a;
+  color: white;
+  cursor: pointer;
+}
+
+#start>button,
+#present {
+  font-family: 'Ysabeau Infant';
+  border: 1px solid white;
+  border-radius: 0;
+  background: linear-gradient(111deg, rgba(238, 174, 202, 0) 0%, rgba(238, 174, 202, 0) 40%, rgba(238, 174, 202, 1) 50%, rgba(148, 187, 233, 1) 100%);
+  background-size: 250%;
+  background-position: 0 0;
+  color: white;
+  padding: 8px 36px 10px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  font-size: 20px;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+#start>button:hover,
+.choices button:hover,
+.gameMenu button:hover,
+#present:hover {
+  /* background: #eeaeca; */
+  background-position: 100% 0;
+}
+
+#openMenu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  opacity: 0.7;
+  cursor: pointer;
+  z-index: 1;
+  transition: .2s;
+}
+
+#openMenu:hover {
+  opacity: 1;
+}
+
+.inventory {
+  max-width: 50%;
+  max-height: 75%;
+}
+
+#inv-close {
+  width: fit-content;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  opacity: 0.7;
+  cursor: pointer;
+  line-height: 0;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.inventory ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 100%;
+  gap: .9em;
+  margin: unset;
+}
+
+.inventory ul li {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-content: center;
+  max-width: 10em;
+  padding: 0.5em;
+  border: 2px solid #eeaeca;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(111deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  background-color: #ffffff1a;
+  position: relative;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.inventory ul li img {
+  width: 75%;
+  align-self: center;
+}
+
+
+.inventory ul li amount {
+  display: none;
+}
+
+.inventory ul li:hover description {
+  opacity: 1;
+}
+
+.inventory ul li description {
+  transition: .3s;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5em;
+  background-color: #15040dcf;
+  height: 90%;
+  width: 91%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 2px solid #eeaeca;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(111deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.inventory ul li name {
+  text-align: center;
+}
+
+.inventory ul li.selected {
+  outline: 2px solid #FCF6BD;
+}
+
+.inventory .present {
+  align-self: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#inv-open {
+  position: absolute;
+  top: -2px;
+  right: -42px;
+  font-size: 18px;
+  padding: 20px 10px;
+  background: #1e161acf;
+  border: 2px solid #eeaeca;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(111deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  box-shadow: 0 0 10px 1px #eeaeca60;
+  border-left: none;
+  cursor: pointer;
+}
+
+#inv-open i {
+  opacity: 0.7;
+  color: white;
+  transition: .2s;
+}
+
+#inv-open:hover i {
+  opacity: 1;
+}
+
+dialog[type=text] {
+  width: 40%;
+  /* height: 55%; */
+  background: #1e161aed;
+  border: 2px solid #eeaeca;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(111deg, rgba(238, 174, 202, 1) 0%, #94bbe9 100%);
+  color: white;
+  box-shadow: 0 0 10px 1px #eeaeca60;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 3em 4em;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 3vw;
+  font-family: 'Water Brush';
+}
+
+.credits-text {
+  width: 100%;
+}
+
+.credits-text ul {
+  padding-left: 1em;
+}
+
+.credits-text li {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.credits-text li span:not(:first-child) {
+  max-width: 50%;
+  text-align: end;
+}

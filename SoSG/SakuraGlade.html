@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Water+Brush&family=Ysabeau+Infant:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+  <script src="Fudge/FudgeCore.js"></script>
+  <script src="FudgeStory/FudgeStory.js"></script>
+  <script src="./Build/SakuraGlade.js"></script>
+  <script src="https://kit.fontawesome.com/108cacb930.js" crossorigin="anonymous"></script>
+  <title>Secrets of Sakura Glade</title>
+</head>
+
+<body>
+  <button id="openMenu" aria-label="Menu"><i class="fa-solid fa-gear"></i></button>
+  <scene>
+    <canvas></canvas>
+    <speech>
+      <name>
+        <!-- The name of the character speaking -->
+      </name>
+      <content>
+        <!-- The text the character says -->
+      </content>
+      <button id="inv-open"><i class="fa-solid fa-toolbox"></i></button>
+    </speech>
+    <dialog type="inventory" class="inventory">
+      <button type="button" id="inv-close"><i class="fa-solid fa-xmark"></i></button>
+      <ul>
+      </ul>
+      <button type="button" id="present" class="hidden">Present</button>
+    </dialog>
+    <dialog type="text">
+      The content of a page of text for reading
+    </dialog>
+    <dialog id="start">
+      <form>
+        <label for='name'>Please input your name (max. 15 characters)
+          <input type='text' name='name' id='name' placeholder='Name' required maxlength="15" pattern="[A-Za-z]{0,}"></label>
+        <label for='pronouns'>Please select your preferred pronouns
+          <select name='pronouns' id='pronouns'>
+            <option value='diverse' selected>they/them</option>
+            <option value='female'>she/her</option>
+            <option value='male'> he/him</option>
+          </select></label>
+      </form>
+      <button type="button">Start</button>
+    </dialog>
+
+  </scene>
+
+  <dialog type="splash" open>
+    <div class="start">
+      <h1 class="h1"><small>Secrets of</small><br>Sakura Glade</h1>
+      <p>Click anywhere to start</p>
+
+    </div>
+    <p class="claim">
+      made with &nbsp; <img id="FudgeStoryLogo" theme="light" />
+    </p>
+  </dialog>
+</body>
+
+</html>
