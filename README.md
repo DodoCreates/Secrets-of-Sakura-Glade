@@ -15,7 +15,7 @@ Welcome to **Secrets of Sakura Glade**, a visual novel created as a university p
 
 ## Synopsis
 
-Through a wondrous fortune, you wakes up in the **Forest of Fairie**, a magical forest inhabited by the Capfolk, mushroom humanoids. After discovering the theft of the **Moon Bead**, a sacred artifact of the **Sakura Glade** village, you take on the role of an investigator. Your goal is to find the culprit and return the Moon Bead before the Spring Festival. You'll collect clues, interrogate four suspects, unveil their secrets, and make a choice that will decide the outcome of the festival. Will you solve the mystery and save the day?
+Through a wondrous fortune, you wake up in the **Forest of Fairie**, a magical forest inhabited by the Capfolk, mushroom humanoids. After discovering the theft of the **Moon Bead**, a sacred artifact of the **Sakura Glade** village, you take on the role of an investigator. Your goal is to find the culprit and return the Moon Bead before the Spring Festival. You'll collect clues, interrogate four suspects, unveil their secrets, and make a choice that will decide the outcome of the festival. Will you solve the mystery and save the day?
 
 ## Features
 
@@ -27,7 +27,7 @@ Through a wondrous fortune, you wakes up in the **Forest of Fairie**, a magical 
 
 ## How to Play
 
-1. **Start the Game**: You can play the game here: https://DodoCreates.github.io/Secrets-of-Sakura-Glade/SoSG/SakuraGlade.html 
+1. **Start the Game**: You can play the game [here](https://DodoCreates.github.io/Secrets-of-Sakura-Glade/SoSG/SakuraGlade.html). 
 2. **Progress through the Story**: Click through dialogues and decide where you want to go to collect clues.
 3. **Interrogate Suspects**: Use the gathered clues to question the four suspects and uncover their secrets.
 4. **Make Your Decision**: Based on your investigation, make a choice on the day of the festival to determine the fate of the Moon Bead and the Spring Festival.
@@ -42,7 +42,7 @@ Through a wondrous fortune, you wakes up in the **Forest of Fairie**, a magical 
 ## Credits
 
 - **Story, Characters, and Code**: [Dodo](https://wonderl.ink/@dodocreates)
-- **Art Assets**: Created by Dodo, [Nookyroo](https://www.instagram.com/nookyroo/) and [Anna Borisovich](https://www.instagram.com/_alluusion/)
+- **Art Assets**: Created by Dodo, [Nookyroo](https://wonderl.ink/@nookyroo) and [Anna Borisovich](https://www.instagram.com/_alluusion/)
 - **Special Thanks**: GinGin and TimTim, my favorite people who support me, always.
 - more are mentioned in the game credits
 
