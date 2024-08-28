@@ -11,7 +11,6 @@ Welcome to **Secrets of Sakura Glade**, a visual novel created as a university p
 4. [How to Play](#how-to-play)
 6. [Development](#development)
 7. [Credits](#credits)
-8. [License](#license)
 
 ## Synopsis
 
@@ -45,10 +44,6 @@ Through a wondrous fortune, you wake up in the **Forest of Fairie**, a magical f
 - **Art Assets**: Created by Dodo, [Nookyroo](https://wonderl.ink/@nookyroo) and [Anna Borisovich](https://www.instagram.com/_alluusion/)
 - **Special Thanks**: GinGin and TimTim, my favorite people who support me, always.
 - more are mentioned in the game credits
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
