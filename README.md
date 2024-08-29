@@ -37,7 +37,7 @@ Through a wondrous fortune, you wake up in the **Forest of Fairie**, a magical f
 
 ## Development
 
-- **Engine**: Fudge Story
+- **Engine**: [Fudge Story](https://github.com/JirkaDellOro/FUDGE_Story)
 - **Languages**: HTML, CSS, TypeScript
 - **Tools**: Visual Studio Code, Krita, Midjourney
 
