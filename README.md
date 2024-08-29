@@ -33,6 +33,8 @@ Through a wondrous fortune, you wake up in the **Forest of Fairie**, a magical f
 4. **Make Your Decision**: Based on your investigation, make a choice on the day of the festival to determine the fate of the Moon Bead and the Spring Festival.
 5. **Save/Load your Progress**: The game comes with a saving/loading function as a json download. However, this feature is not tested and it's recommended to play in one session. Playtime is approximately 30min.
 
+**NB! The game is only optimized to run in Chrome on Desktop.**
+
 ## Development
 
 - **Engine**: Fudge Story
